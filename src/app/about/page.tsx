@@ -5,11 +5,10 @@ import { Badge } from "@/components/ui/badge";
 import { Circle, Heart, User2 } from "lucide-react";
 const page = () => {
   const items = [
-    { hobby: "coding" },
-    { hobby: "playing games" },
-    { hobby: "Watching Anima" },
+    { hobby: "编程" },
+    { hobby: "玩游戏" },
+    { hobby: "看球赛" },
     { hobby: "Tech Blog writing" },
-    { hobby: "creating Cool Projects" },
   ];
 
   return (
@@ -20,24 +19,21 @@ const page = () => {
         About me
       </Badge>
       <div className="flex flex-col gap-3">
-       
-          <Heading>
-            Software Engineer And Web <br /> Developer, Based In India.
-          </Heading>
-   
-        <FramerWrapper y={0} x={100} >
+        <Heading>
+          Computer Science student <br /> Based In Wuxi
+        </Heading>
+
+        <FramerWrapper y={0} x={100}>
           <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand,
-            India. I love crafting cool web projects and also open-source
-            contribuitions. My biggest achievement lies in my mastery of
-            JavaScript and CSS, ensuring pixel-perfect designs that captivate
-            users. With a keen eye for detail and a commitment to delivery
-            speed, I excel at creating seamless and responsive interfaces that
-            leave a lasting impression.
+            我是一个来自中国兰州的大学生，我喜欢编程，玩游戏，看动漫，写技术博客，创造一些有趣的项目。
           </p>
         </FramerWrapper>
       </div>
-      <FramerWrapper className="w-full flex flex-row justify-between max-lg:flex-col " y={100} delay={0.30}>
+      <FramerWrapper
+        className="w-full flex flex-row justify-between max-lg:flex-col "
+        y={100}
+        delay={0.3}
+      >
         <Aboutfooter />
       </FramerWrapper>
       <FramerWrapper className="block" y={100} delay={0.31}>

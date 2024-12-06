@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {  Poppins, Rubik } from "next/font/google";
+import { Poppins, Rubik } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
@@ -24,43 +24,14 @@ export const metadata: Metadata = {
   description: siteConfig.description,
 
   // added new keywords for seo
-  keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
-    "portfolio",
-    "web developer",
-    "web",
-    "web dev",
-    "developer",
-    "PROGRAMMER ",
-    "programmer ",
-    "MD TAQUI IMAM ",
-    "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
-  ],
+  keywords: [],
   authors: [
     {
-      name: "Taqui Imam",
+      name: "Yan Hongjin",
       url: "https://github.com/taqui-786",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Yan Hongjin",
 
   openGraph: {
     type: "website",
