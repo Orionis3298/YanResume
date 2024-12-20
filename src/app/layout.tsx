@@ -16,7 +16,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://yan-resume-psi.vercel.app/"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Yan Hongjin",
-      url: "https://github.com/taqui-786",
+      url: "https://github.com/Orionis3298",
     },
   ],
   creator: "Yan Hongjin",
